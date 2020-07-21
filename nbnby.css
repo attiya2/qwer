@@ -1,0 +1,180 @@
+﻿*{
+margin:0;
+padding:0;
+outline:0;
+}
+html, body,  span, 
+h1, h2, h3, h4, h5, h6, 
+a,  ul, li,
+ {
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+background: transparent;
+}
+
+ ul , ol , dl {
+list-style-position:inside;
+font-weight:bold;
+list-style:none;
+}
+
+body{
+background:#FFF;
+padding: 0;
+margin: 0;
+font-family: 'Amiri', serif;arial;
+font-family: 'Amiri', serif;
+font-family: 'Lateef', cursive;
+font-family: 'Markazi Text', serif;
+font-weight: normal;
+font-size: 14px;
+}
+
+
+
+.site-header{ width:99.8%;
+  background:#FFF;
+}
+
+.site-header:hover{
+    background:repeating-radial-gradient(circle at 50% 25%,#EFEFEF,  #B0CDDE 80px );  
+
+ }
+
+.site-title { text-align: center;
+  color: white;
+  text-shadow: 4px 3px 8px #000000;
+  }
+
+.site-intro {text-align: center;
+  color: white;
+  text-shadow:4px 3px 8px #000000;
+  }
+
+
+.main-text{font-size:26px;font-weight:bold;}
+
+
+
+.site-navigation{align:center;
+width:99.8%;background:#4BC589;
+  ;padding:0px;margin:auto;
+}
+.site-navigation ul{width:95%;margin:auto;;overflow:hidden; }
+.site-navigation ul li{
+text-color: white;
+float:right;
+background:#4BC589;
+padding:8px 35px;
+}
+
+.site-navigation a{color:white;text-shadow:4px 4px 14px #0000ff;font-size: 20px;}
+.site-navigation a:hover{color:#666666}
+
+
+.black-link{ 
+  font-weight: bold;font-size:16px;font-family:Arial Narrow'Tangerine', cursive;
+}
+
+.list-group{font-size: 23px; font-weight: bold;text-align: center;
+  }
+.list-group  a:hover{font-size: 23px; font-weight: bold;text-decoration: none;
+  }
+.list-group a{color:white;text-shadow: 4px 4px 14px #0000ff;font-size:   22px;}
+.list-group a:hover{color:#666666;font-weight: bold;}
+
+a{font-weight: bold;}
+a:hover{text-decoration: none;text-shadow: 6px 6px 14px #0000ff;font-weight: bold;}
+
+
+
+
+.article-header a:hover{text-decoration: none;text-shadow: 6px 6px 14px  #0000ff;}
+.article-title {text-decoration: none;font-weight: bold;text-align: center;}
+ .article-content {font-size: 23px; font-weight: bold;text-align:  right;
+  }     
+.article-content {padding-right:10px;font-family:Times New  Roman,Arial,Akhbar MT, DecoType Naskh ,tahoma  ; } 
+
+.panel-title{font-size:30px; font-weight:bold;text-align:center;
+  }
+
+
+.pagination ul li{
+
+float:left;
+
+ background: #EFEFEF;
+padding:8px 16px;
+}
+
+.panel-heading
+{
+color:white;font-weight: bold;text-shadow: 6px 6px 14px #0000ff;font-size:33px;font-weight: bold;
+text-decoration: none;
+}
+
+.panel-heading:hover{text-decoration: none;color:#7A7A7A;text-shadow: 6px 6px 14px #00000f;font-weight: bold;}
+
+
+
+ 
+.col-md-9{ 
+  background: #FFF;
+}
+.col-md-3{ 
+  background: #FFF;
+}
+.col-md-3:hover{   
+}
+
+.site-footer{ 
+  background: #FFF;
+}
+
+.styblu{ color: #3b00ff;
+            font-size: 28px;        
+          }
+.styred{ color: #ff3b00;
+            font-size: 28px;        
+          }
+
+.hljs{ background-color: #eff6e0;
+box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+   text-align: left;
+    border-left: 5px solid #ed6a5a;
+    padding-left:20px;
+    background-color: #eff6e0;
+    margin: 10px;
+}
+
+
+
+#recentpostnav{width:100%;border:1px solid #585858;margin:0 auto}
+#borpbox{margin:0}
+
+.w3-panel-sidebar{display:block;background:#fff;height:89px;border:1px solid #ddd;margin:4px 0px;padding:3px}
+
+.w3-panel-sidebar img{float:right;background:#fff;border:1px solid #0d48e8;margin:2px 2px 2px 5px;padding:8px;height:77px;width:50%;border-radius: 10%;}
+
+.w3-panel-sidebar img:hover{opacity: 0.5;padding:2px;border:3px solid #0d48e8;}
+
+.w3-panel-sidebar h6,.recentposarea h6 a{text-decoration:none;margin:0;color:#111;font-size:16px!important;font-weight:700!important;text-align:right;}
+
+.w3-panel-sidebar p{text-align:right;font-size:12px;margin:5px 0;color:#555;line-height:normal}
+
+
+#recentpostnav{width:100%;border:1px solid #585858;margin:0 auto}
+#borpbox{margin:0}
+
+.w3-panel-sidebar-item{display:block;background:#fff;height:89px;border:1px solid #ddd;margin:4px 0px;padding:3px}
+
+.w3-panel-sidebar-item img{float:right;background:#fff;border:1px solid #0d48e8;margin:2px 2px 2px 5px;padding:8px;height:77px;width:50%;border-radius: 10%;}
+
+.w3-panel-sidebar-item img:hover{opacity: 0.5;padding:2px;border:3px solid #0d48e8;}
+
+.w3-panel-sidebar-item h6,.recentposarea h6 a{text-decoration:none;margin:0;color:#111;font-size:16px!important;font-weight:700!important;text-align:right;}
+
+.w3-panel-sidebar-item p{text-align:right;font-size:12px;margin:5px 0;color:#555;line-height:normal} 
+
